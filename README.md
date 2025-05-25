@@ -8,9 +8,10 @@ this Python script that shows how you can:
 4. Try to get the public key back from just the signature and message
 
 It uses a bunch of crypto stuff like SHA256, secp256k1, and RFC6979 (which makes sure we don’t reuse nonces). 
------------------------------------------------------------------------------------------------------------------------
+
 
 Project Structure
+-----------------------------------------------------------------------------------------------------------------------
 
 1. Dependencies
    1-> I used hashlib and hmac for the hashing and secure keys
