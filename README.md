@@ -2,7 +2,7 @@ BitcoinModel
 -----------------------------------------------------------------------------------------------------------------------
 
 
-this Python script that shows how you can:
+this Python script shows how you can:
 
 1. Take a raw Bitcoin transaction and make a TXID out of it
 2. Sign it using ECDSA (that elliptic curve thing Bitcoin uses)
