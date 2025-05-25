@@ -49,8 +49,11 @@ Example Flow:
 
 
 txid = create_tx_hash(tx_data)
-signature = sign_transaction(private_key, tx_hash)
+
+signature = sign_transaction(private_key, tx_hash)     
+
 valid = verify_signature(pubkey, signature, tx_hash)
+
 
 
 
