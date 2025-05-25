@@ -9,7 +9,7 @@ this Python script shows how you can:
 3. Check if the signature is valid
 4. Try to get the public key back from just the signature and message
 
-It uses a bunch of crypto stuff like SHA256, secp256k1, and RFC6979 (which makes sure we don’t reuse nonces). 
+It uses algos like SHA256, secp256k1, and RFC6979 (which makes sure we don’t reuse nonces). 
 
 
 Project Structure
