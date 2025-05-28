@@ -41,8 +41,11 @@ Project Structure
    - Sometimes useful in Bitcoin stuff like signature validation without public key
 
 6. Helper Functions:
+7. 
    1-> _rfc6979_nonce: Makes sure each signature uses a different k (very important)
+   
    2-> _der_sig_encode and decode: used to convert signature to/from DER format
+   
    3-> _int_to_bytes: converts integers into byte strings (needed for DER)
 
 ---
