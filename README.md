@@ -50,7 +50,7 @@ Project Structure
 ---
 
 Example Flow:
-
+```python
 
 txid = create_tx_hash(tx_data)
 
